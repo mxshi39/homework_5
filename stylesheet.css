@@ -1,6 +1,7 @@
 .products img{
 	width: 320px;
 	height: auto;
+	text-align: center;
 }
 
 h3{
@@ -11,9 +12,38 @@ p{
 	font: 16pt Arial;
 }
 
-.foot p{
-	font: 14pt AR CENA;
+footer p{
+	font: 12pt AR CENA;
+	text-align: center;
 }
 header {
-	text-align: left;
+	text-align: center;
+	background-color: #F7EFE4;
+}
+
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: #603813;
+	font: 24pt AR CENA #FFFFFF;
+}
+
+/* PumpkinRoll Style */
+.details img{
+	width: 570px;
+	height: 570px;
+}
+
+h1 {
+	font: 28pt AR CENA;
+}
+
+h4 {
+	font: 21pt AR CENA #DBA703;
+}
+
+.pumpkin-details {
+
 }
