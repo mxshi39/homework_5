@@ -31,10 +31,10 @@ nav{
 }
 
 /* PumpkinRoll Style */
-.details img{
+/*.details img{
 	width: 570px;
 	height: 570px;
-}
+}*/
 
 h1 {
 	font: 28pt AR CENA;
@@ -45,5 +45,31 @@ h4 {
 }
 
 .pumpkin-details {
+	display: inline-block;
+	width: 60%;
+	float: right;
+	padding: 0 60px;
+	box-sizing: border-box;
+}
 
+.pumpkin-image{
+	display: inline-block;
+	width: 40%;
+	float: left;
+}
+
+.pumpkin-image img {
+	width: 100%;
+}
+
+.clearfix::after,
+.details:after {
+	content: ' ';
+	clear: both;
+}
+
+footer {
+	width: 100%;
+	display: block;
+	float: left;
 }
