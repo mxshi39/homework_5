@@ -16,6 +16,9 @@ footer p{
 	font: 12pt AR CENA;
 	text-align: center;
 }
+.site-footer {
+	background-color: #F7EFE4;
+}
 header {
 	text-align: center;
 	background-color: #F7EFE4;
