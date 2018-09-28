@@ -1,7 +1,6 @@
-.products img{
-	width: 320px;
-	height: auto;
-	text-align: center;
+/* fixed parts across all pages*/
+body{
+	margin: 0;
 }
 
 h3{
@@ -24,13 +23,53 @@ header {
 	background-color: #F7EFE4;
 }
 
-body{
-	margin: 0;
+header img{
+	padding:15px;
 }
 
 nav{
 	background-color: #603813;
-	font: 24pt AR CENA #FFFFFF;
+	margin: 0px;
+	padding: 10px;
+}
+
+	/*change navigation*/
+nav a{
+	padding: 80px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+	
+	/* location tab*/
+.location {
+	margin-left:10%;
+	padding-top: 5px;
+	color: #FFFFFF;
+}
+
+.location a{
+	text-decoration: none;
+	color: #AA6939;
+}
+
+
+/* home page */
+.carousel {
+	text-align: center;
+}
+
+.carousel img{
+	width:80%;
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+/* Product review page*/
+.products img{
+	width: 320px;
+	height: auto;
+	text-align: center;
 }
 
 /* PumpkinRoll Style */
