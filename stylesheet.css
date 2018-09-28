@@ -1,23 +1,32 @@
 /* fixed parts across all pages*/
 body{
 	margin: 0;
+	padding:0;
 }
 
 h3{
-	font: 24pt AR CENA;
+	font: 21pt AR CENA;
+	color: #42210B;
 }
 
 p{
-	font: 16pt Arial;
+	font: 14pt Arial;
+	color: #1A1A1A;
 }
 
+	/* footer section*/
 footer p{
 	font: 12pt AR CENA;
 	text-align: center;
+	color: #1A1A1A;
 }
-.site-footer {
+
+footer {
 	background-color: #F7EFE4;
+	padding-top: 20px;
+	margin-top: 20px;
 }
+
 header {
 	text-align: center;
 	background-color: #F7EFE4;
@@ -42,8 +51,9 @@ nav a{
 	
 	/* location tab*/
 .location {
-	margin-left:10%;
+	margin-left:7%;
 	padding-top: 5px;
+	padding-bottom: 5px;
 	color: #FFFFFF;
 }
 
@@ -59,19 +69,37 @@ nav a{
 }
 
 .carousel img{
-	width:80%;
+	width:86%;
 	height: auto;
-	padding-top: 5px;
-	padding-bottom: 20px;
 }
 
 /* Product review page*/
+.products {
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
 .products img{
 	width: 320px;
 	height: auto;
-	text-align: center;
 }
 
+	/* spacing out three images*/
+.image-mid {
+	margin:0px;
+	padding-right: 92px;
+	padding-left: 92px;
+}
+
+.products h3{
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.products p{
+	padding: 0px;
+	margin: 0px 0px 30px 0px;
+}
 /* PumpkinRoll Style */
 /*.details img{
 	width: 570px;
