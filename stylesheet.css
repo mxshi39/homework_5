@@ -18,6 +18,7 @@ p{
 footer p{
 	font: 12pt AR CENA;
 	text-align: center;
+
 	color: #1A1A1A;
 }
 
@@ -25,6 +26,9 @@ footer {
 	background-color: #F7EFE4;
 	padding-top: 20px;
 	margin-top: 20px;
+	width: 100%;
+	display: block;
+	float: left;
 }
 
 header {
@@ -32,6 +36,16 @@ header {
 	background-color: #F7EFE4;
 }
 
+.shopping-cart {
+	float: right;
+	
+}
+.cart {
+	float:left;
+}
+h5 {
+	float: left;
+}
 header img{
 	padding:15px;
 }
@@ -39,22 +53,30 @@ header img{
 nav{
 	background-color: #603813;
 	margin: 0px;
-	padding: 10px;
+	display: flex;
+  	justify-content: space-around;
 }
 
 	/*change navigation*/
 nav a{
-	padding: 80px;
 	text-decoration: none;
 	color: #FFFFFF;
+	font-family: AR CENA;
+	font-size: 18pt;
 }
-	
+
+/* change cart icon*/
+.cart {
+	width: 50px;
+	height: auto;
+}
 	/* location tab*/
 .location {
 	margin-left:7%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: #FFFFFF;
+	font-family: AR CENA;
 }
 
 .location a{
@@ -85,10 +107,18 @@ nav a{
 }
 
 	/* spacing out three images*/
-.image-mid {
-	margin:0px;
-	padding-right: 92px;
-	padding-left: 92px;
+.product-images {
+	text-align: justify;
+}
+
+.product-images img {
+	display: inline-block;
+}
+
+.product-images:after {
+	content: '';
+  	width: 100%; /* Ensures justification for single lines */
+  	display: inline-block;
 }
 
 .products h3{
@@ -100,6 +130,7 @@ nav a{
 	padding: 0px;
 	margin: 0px 0px 30px 0px;
 }
+
 /* PumpkinRoll Style */
 /*.details img{
 	width: 570px;
@@ -108,38 +139,104 @@ nav a{
 
 h1 {
 	font: 28pt AR CENA;
+    margin: 0px;
 }
 
 h4 {
-	font: 21pt AR CENA #DBA703;
+	margin: 10px 0;
+}
+table {
+	width:100%;
+	border-spacing: 0;
+}
+
+td {
+	font-family: AR CENA;
+	font-size: 14pt;
+}
+
+.pumpkin-details p {
+	float:left;
+	font-size: 14pt;
+	margin: 10px 0;
+}
+
+/* adding a line below table head*/
+.border {
+	border-bottom: 3px solid #DBA703;
+	width:100%;
+	font-family: AR CENA;
+	font: : 18pt;
+}
+
+.price {
+	float: left;
+	color: #DBA703;
+	font-family: AR CENA;
+}
+
+.unit {
+	float:left;
+	font-family: AR CENA;
+	
 }
 
 .pumpkin-details {
 	display: inline-block;
 	width: 60%;
 	float: right;
-	padding: 0 60px;
+	padding: 0 0 0 60px;
 	box-sizing: border-box;
 }
 
-.pumpkin-image{
+.pumpkin-image {
 	display: inline-block;
 	width: 40%;
-	float: left;
+	/*float: left;*/
 }
 
 .pumpkin-image img {
 	width: 100%;
 }
 
-.clearfix::after,
+/*.clearfix::after,
 .details:after {
 	content: ' ';
 	clear: both;
+}*/
+
+.details {
+	width: 86%;
+	margin-left: 7%;
 }
 
-footer {
-	width: 100%;
-	display: block;
-	float: left;
+/* making dropdowns */
+.dropdown {
+	position: relative;
+  	font-family: Arial;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+select {
+  color: #808080;
+  font-size: 14pt;
+  border-color: #42210B;
+  border-width: 1px;
+  background-color: #F7EFE4;
+  width: 40%;
+  height: 24px;
+  margin: 10px 0;
+}
+
+.AddToCart {
+	border-radius: 10px;
+    background-color: #F7EFE4;
+    border: 1px solid #42210B;
+    padding: 10px;
+    color: #DBA703;
+    font-size: 28px;
+    width: 200px;
+    height: 75px;
+    margin: 10px 0;
 }

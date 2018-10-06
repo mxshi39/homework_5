@@ -25,13 +25,14 @@
 		</div>
 		<div class="pumpkin-details">
 			<h1>Pumpkin Spice Roll</h1>
-			<h4>$4.0/roll</h4>
+			<h4 class="price">$4.0</h4><h4 class="unit">/roll</h4>
 			<p>Our famous Pumpkin Spice rolls are freshly baked everyday to deliver the best quality of texture and taset.</p>
 			<!--  product details table -->
 			<table>
 				<thead>
 					<tr>
-						<th>Nutrition Facts</th>
+						<p class="border">Nutrition Facts</p>
+						
 					</tr>
 				</thead>
 				<tbody>
@@ -52,7 +53,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>Allergens</th>
+						<p class="border">Allergens</p>
 					</tr>
 				</thead>
 				<tbody>
@@ -64,27 +65,27 @@
 			</table>
 			<!-- dropdown options -->
 			<div class="dropdown">
-				<button class="dropdown-quant">Dropdown</button>
-				<div class="dropdown-quant-options">
-					<a href="#">1</a>
-					<a href="#">3</a>
-					<a href="#">6</a>
-					<a href="#">12</a>
-				</div>
-				<button class="dropdown-glaz">Glazing</button>
-				<div class="dropdown-glaz-options">
-					<a href="#">None</a>
-					<a href="#">Sugar-milk</a>
-					<a href="#">Vanilla-milk</a>
-					<a href="#">Double-Chocolate</a>
-				</div>
+				<select>
+					<option value="0">Quantity</option>
+				    <option value="1">1</option>
+				    <option value="2">3</option>
+				    <option value="3">6</option>
+				    <option value="4">12</option>
+				</select>
+				<select>
+					<option value="0">Glazing</option>
+				    <option value="1">None</option>
+				    <option value="2">Sugar-milk</option>
+				    <option value="3">Vanilla-milk</option>
+				    <option value="4">Double-Chocolate</option>
+				</select>
 			</div>
 			<!-- Add to Cart -->
 			<button class="AddToCart">Add to Cart!</button>
 		</div>
-		<div class="clearfix"></div>
+		<div></div>
 	</div>
-	<div class="clearfix"></div>
+	<div></div>
 
 	<footer>
 		<!--<img src="./phone-03.png" width="23px" height="22px">-->
