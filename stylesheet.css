@@ -21,6 +21,11 @@ footer p{
 	color: #1A1A1A;
 }
 
+footer img{
+	width: 20px;
+	height: auto;
+}
+
 footer {
 	background-color: #F7EFE4;
 	padding-top: 20px;
