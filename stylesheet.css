@@ -18,7 +18,6 @@ p{
 footer p{
 	font: 12pt AR CENA;
 	text-align: center;
-
 	color: #1A1A1A;
 }
 
@@ -31,25 +30,46 @@ footer {
 	float: left;
 }
 
+/* change logo and shopping cart icon and text */
 header {
-	text-align: center;
+	/*text-align: center;*/
 	background-color: #F7EFE4;
 }
 
-.shopping-cart {
-	float: right;
-	
+.logo-shop {
+	/*position:relative;*/
+	padding: 0 60px;
+	text-align: center;
+/*	display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;*/
 }
+/*.shopping {
+	border: solid 1px red;
+	float: right;
+	display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    text-align: bottom;
+}*/
 .cart {
-	float:left;
+	vertical-align: baseline; /*align at button for h5 and cart image*/
+	width: 50px;
 }
 h5 {
-	float: left;
-}
-header img{
-	padding:15px;
+	font-family: AR CENA;
+	margin: 0;
+	font-size: 18pt;
+	color: #1A1A1A;
 }
 
+/*.logo {
+	padding:15px;
+	margin: auto;
+	position: relative;
+}*/
+
+/*change navigation*/
 nav{
 	background-color: #603813;
 	margin: 0px;
@@ -57,7 +77,6 @@ nav{
   	justify-content: space-around;
 }
 
-	/*change navigation*/
 nav a{
 	text-decoration: none;
 	color: #FFFFFF;
@@ -65,11 +84,6 @@ nav a{
 	font-size: 18pt;
 }
 
-/* change cart icon*/
-.cart {
-	width: 50px;
-	height: auto;
-}
 	/* location tab*/
 .location {
 	margin-left:7%;
@@ -101,6 +115,20 @@ nav a{
 	margin-right: 7%;
 }
 
+#roll { /* each image and the text under each image*/
+	width: 320px;
+	background-color: #F7EFE4;
+	margin-bottom: 30px;
+}
+
+#roll p{
+	font-family: AR CENA;
+	font-size: 18pt;
+	color: #42210B;
+	text-align-last: justify;
+	margin: 5px;
+}
+
 .products img{
 	width: 320px;
 	height: auto;
@@ -111,7 +139,7 @@ nav a{
 	text-align: justify;
 }
 
-.product-images img {
+.product-images #roll {
 	display: inline-block;
 }
 
