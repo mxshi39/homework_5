@@ -61,8 +61,14 @@ h5 {
 	margin: 0;
 	font-size: 18pt;
 	color: #1A1A1A;
+	display: inline-block;
+	float: right;
+	padding-top: 80px;
 }
-
+.logo {
+	margin-top: 10px;
+	display: inline-block;
+}
 /*.logo {
 	padding:15px;
 	margin: auto;
@@ -267,4 +273,75 @@ select {
     width: 200px;
     height: 75px;
     margin: 10px 0;
+}
+
+/* Service Page */
+/* modify image size*/
+.service {
+	margin-left: 7%;
+	margin-right: 7%;
+	justify-content: space-between; 
+}
+
+.service img {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.service-details {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
+.service-details h1 {
+	color: #603813;
+}
+
+.service-details p {
+	color: #1A1A1A;
+}
+
+.order-now {
+	border-radius: 10px;
+    background-color: #F7EFE4;
+    border: 1px solid #42210B;
+    padding: 10px;
+    color: #DBA703;
+    font-size: 28px;
+    width: 200px;
+    height: 75px;
+    margin: 10px 0;
+}
+
+/*about us page*/
+.about-us {
+	margin-right: 7%;
+	margin-left: 7%;
+}
+
+.about-us img {
+	width: 40%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.text-rest {
+	width: 50%;
+	float: right;
+	display: inline-block;
+}
+
+.about-us h1 {
+	text-align: center;
+	color: #603813;
+}
+
+.about-us p {
+	color: #1A1A1A;
+	margin: 10px;
 }
